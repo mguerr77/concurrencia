@@ -23,7 +23,7 @@ public class EjemploHilosConcurrentes {
 
         @Override
         public void run() {
-            for (int i = 1; i <= 5; i++) {
+            for (int i = 1; i < 5; i++) {
                 System.out.println(nombre + ": Ejecutando tarea " + i);
                 try {
                     // Simular tiempo de ejecución variable
